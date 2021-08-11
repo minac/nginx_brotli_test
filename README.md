@@ -8,7 +8,7 @@ The `nginx.conf` file is as minimal as I could make it.
 
 The `Dockerfile` is based on an nginx image with brotli compiled in, the rest is copying the test files into it.
 
-You can test with:
+You can test with this:
 ```
 docker build -t nb .
 docker run -d --rm --name nb -p 8888:80 nb
